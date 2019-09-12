@@ -1,0 +1,5 @@
+:schedule:
+  invoice_job:           
+    every: ['10m', first_in: '2s']
+    args: "Quang"
+    class: HardWorker  
